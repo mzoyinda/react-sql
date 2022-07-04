@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: rgba(2, 17, 44, 0.877);
+}
+
+.App{
+color: white;
+}
+
+.logo{
+    font-family: cursive;
+    margin: .5rem;
+}
+
+
+p{
+   margin: 0;
+}
+
+.task-list{
+    margin: 5rem auto 0 auto;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+button{
+    background-color: white;
+    padding: .5rem 1rem;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+button:hover{
+    opacity: 0.85;
+}
+
+button+button{
+    margin-left: 1rem;
+}
+
+input{
+    border: 1px solid white;
+    padding: .5rem;
+    width: 15rem;
+    color: black;
+    margin-right: 1rem;
+}
+.card-container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    margin-top: 5rem;
+    margin-left: 5rem;
+    border: 2px solid white;
+    padding: 1rem;
+    width: 15rem;
+}
+
+.card-footer{
+    margin-top: 3rem;
+}
